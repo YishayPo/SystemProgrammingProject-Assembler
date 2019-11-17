@@ -1,0 +1,668 @@
+memory_image.o: memory_image.c ADT_linked_list.h macros.h memory_image.h \
+ single_memory_word.h data_types.h
+entry_table.o: entry_table.c ADT_linked_list.h macros.h labels_table.h \
+ entry_table.h
+ADT_linked_list.o: ADT_linked_list.c ADT_linked_list.h macros.h
+extern_table.o: extern_table.c ADT_linked_list.h macros.h extern_table.h
+language_macros.o: language_macros.c ADT_linked_list.h macros.h \
+ language_macros.h
+labels_table.o: labels_table.c ADT_linked_list.h macros.h labels_table.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+assenbler.o: assenbler.c macros.h
+single_memory_word.o: single_memory_word.c single_memory_word.h macros.h \
+ data_types.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+memory_image.o: memory_image.c ADT_linked_list.h macros.h memory_image.h \
+ single_memory_word.h data_types.h
+entry_table.o: entry_table.c ADT_linked_list.h macros.h labels_table.h \
+ entry_table.h
+extern_table.o: extern_table.c ADT_linked_list.h macros.h extern_table.h
+ADT_linked_list.o: ADT_linked_list.c ADT_linked_list.h macros.h
+language_macros.o: language_macros.c ADT_linked_list.h macros.h \
+ language_macros.h
+labels_table.o: labels_table.c ADT_linked_list.h macros.h labels_table.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+assenbler.o: assenbler.c macros.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+single_memory_word.o: single_memory_word.c single_memory_word.h macros.h \
+ data_types.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+entry_table.o: entry_table.c ADT_linked_list.h macros.h labels_table.h \
+ entry_table.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+memory_image.o: memory_image.c ADT_linked_list.h macros.h memory_image.h \
+ single_memory_word.h data_types.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+single_memory_word.o: single_memory_word.c single_memory_word.h macros.h \
+ data_types.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+single_memory_word.o: single_memory_word.c single_memory_word.h macros.h \
+ data_types.h
+single_memory_word.o: single_memory_word.c single_memory_word.h macros.h \
+ data_types.h
+memory_image.o: memory_image.c ADT_linked_list.h macros.h memory_image.h \
+ single_memory_word.h data_types.h
+single_memory_word.o: single_memory_word.c single_memory_word.h macros.h \
+ data_types.h
+memory_image.o: memory_image.c ADT_linked_list.h macros.h memory_image.h \
+ single_memory_word.h data_types.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+single_memory_word.o: single_memory_word.c single_memory_word.h macros.h \
+ data_types.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+memory_image.o: memory_image.c ADT_linked_list.h macros.h memory_image.h \
+ single_memory_word.h data_types.h
+entry_table.o: entry_table.c ADT_linked_list.h macros.h labels_table.h \
+ entry_table.h
+extern_table.o: extern_table.c ADT_linked_list.h macros.h extern_table.h
+ADT_linked_list.o: ADT_linked_list.c ADT_linked_list.h macros.h
+language_macros.o: language_macros.c ADT_linked_list.h macros.h \
+ language_macros.h
+labels_table.o: labels_table.c ADT_linked_list.h macros.h labels_table.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+assenbler.o: assenbler.c macros.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+single_memory_word.o: single_memory_word.c single_memory_word.h macros.h \
+ data_types.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+memory_image.o: memory_image.c ADT_linked_list.h macros.h memory_image.h \
+ single_memory_word.h data_types.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+memory_image.o: memory_image.c ADT_linked_list.h macros.h memory_image.h \
+ single_memory_word.h data_types.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+entry_table.o: entry_table.c ADT_linked_list.h macros.h labels_table.h \
+ entry_table.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+entry_table.o: entry_table.c ADT_linked_list.h macros.h labels_table.h \
+ entry_table.h
+entry_table.o: entry_table.c ADT_linked_list.h macros.h labels_table.h \
+ entry_table.h
+entry_table.o: entry_table.c ADT_linked_list.h macros.h labels_table.h \
+ entry_table.h
+memory_image.o: memory_image.c ADT_linked_list.h macros.h memory_image.h \
+ single_memory_word.h data_types.h
+entry_table.o: entry_table.c ADT_linked_list.h macros.h labels_table.h \
+ entry_table.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+single_memory_word.o: single_memory_word.c single_memory_word.h macros.h \
+ data_types.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+entry_table.o: entry_table.c ADT_linked_list.h macros.h labels_table.h \
+ entry_table.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+entry_table.o: entry_table.c ADT_linked_list.h macros.h labels_table.h \
+ entry_table.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+single_memory_word.o: single_memory_word.c single_memory_word.h macros.h \
+ data_types.h
+single_memory_word.o: single_memory_word.c single_memory_word.h macros.h \
+ data_types.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+memory_image.o: memory_image.c ADT_linked_list.h macros.h memory_image.h \
+ single_memory_word.h data_types.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+single_memory_word.o: single_memory_word.c single_memory_word.h macros.h \
+ data_types.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+single_memory_word.o: single_memory_word.c single_memory_word.h macros.h \
+ data_types.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+memory_image.o: memory_image.c ADT_linked_list.h macros.h memory_image.h \
+ single_memory_word.h data_types.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+single_memory_word.o: single_memory_word.c single_memory_word.h macros.h \
+ data_types.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+entry_table.o: entry_table.c ADT_linked_list.h macros.h labels_table.h \
+ entry_table.h
+extern_table.o: extern_table.c ADT_linked_list.h macros.h extern_table.h
+entry_table.o: entry_table.c ADT_linked_list.h macros.h labels_table.h \
+ entry_table.h
+extern_table.o: extern_table.c ADT_linked_list.h macros.h extern_table.h
+entry_table.o: entry_table.c ADT_linked_list.h macros.h labels_table.h \
+ entry_table.h
+extern_table.o: extern_table.c ADT_linked_list.h macros.h extern_table.h
+extern_table.o: extern_table.c ADT_linked_list.h macros.h extern_table.h
+memory_image.o: memory_image.c ADT_linked_list.h macros.h memory_image.h \
+ single_memory_word.h data_types.h
+extern_table.o: extern_table.c ADT_linked_list.h macros.h extern_table.h
+extern_table.o: extern_table.c ADT_linked_list.h macros.h extern_table.h
+extern_table.o: extern_table.c ADT_linked_list.h macros.h extern_table.h
+extern_table.o: extern_table.c ADT_linked_list.h macros.h extern_table.h
+memory_image.o: memory_image.c ADT_linked_list.h macros.h memory_image.h \
+ single_memory_word.h data_types.h
+entry_table.o: entry_table.c ADT_linked_list.h macros.h labels_table.h \
+ entry_table.h
+extern_table.o: extern_table.c ADT_linked_list.h macros.h extern_table.h
+extern_table.o: extern_table.c ADT_linked_list.h macros.h extern_table.h
+entry_table.o: entry_table.c ADT_linked_list.h macros.h labels_table.h \
+ entry_table.h
+extern_table.o: extern_table.c ADT_linked_list.h macros.h extern_table.h
+single_memory_word.o: single_memory_word.c single_memory_word.h macros.h \
+ data_types.h
+entry_table.o: entry_table.c ADT_linked_list.h macros.h labels_table.h \
+ entry_table.h
+extern_table.o: extern_table.c ADT_linked_list.h macros.h extern_table.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+single_memory_word.o: single_memory_word.c single_memory_word.h macros.h \
+ data_types.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+single_memory_word.o: single_memory_word.c single_memory_word.h macros.h \
+ data_types.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+memory_image.o: memory_image.c ADT_linked_list.h macros.h memory_image.h \
+ single_memory_word.h data_types.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+parse_instructions.o: parse_instructions.c parsing.h macros.h \
+ memory_image.h single_memory_word.h data_types.h labels_table.h \
+ language_macros.h extern_table.h entry_table.h line_manipulations.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+single_memory_word.o: single_memory_word.c single_memory_word.h macros.h \
+ data_types.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+line_manipulations.o: line_manipulations.c macros.h reserved_words.h \
+ line_manipulations.h memory_image.h single_memory_word.h data_types.h \
+ labels_table.h language_macros.h extern_table.h entry_table.h
+assenbler.o: assenbler.c macros.h
+parse_orders.o: parse_orders.c macros.h memory_image.h \
+ single_memory_word.h data_types.h labels_table.h language_macros.h \
+ extern_table.h entry_table.h line_manipulations.h parsing.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+assemble.o: assemble.c macros.h memory_image.h single_memory_word.h \
+ data_types.h labels_table.h language_macros.h extern_table.h \
+ entry_table.h parsing.h line_manipulations.h
+memory_image.o: memory_image.c ADT_linked_list.h macros.h memory_image.h \
+ single_memory_word.h data_types.h
+entry_table.o: entry_table.c ADT_linked_list.h macros.h labels_table.h \
+ entry_table.h
+extern_table.o: extern_table.c ADT_linked_list.h macros.h extern_table.h
+language_macros.o: language_macros.c ADT_linked_list.h macros.h \
+ language_macros.h
+labels_table.o: labels_table.c ADT_linked_list.h macros.h labels_table.h
