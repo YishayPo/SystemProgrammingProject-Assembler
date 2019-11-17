@@ -2,9 +2,11 @@
 
 ## Compile and run
 
+### Compile
 The project has only been tested on Ubuntu OS 
 Compiling the System can easily be done by openning the folder containing the program files and using "make" command
-afterwards in order to assemble files you can use the command assembler and pass the files you wish to assemble as arguments 
+### Run
+After compiling the systen - in order to assemble files you can use the command assembler and pass the files you wish to assemble as arguments 
 the files extention must be .asm and the extention shouldn't be typed when passing the files to the program
 if the assembly file contain no errors the system would output a file with the machine code 
 also if the assembly file has extern variables or intern variables - those variables would also be output as files 
