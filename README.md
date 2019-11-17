@@ -22,4 +22,15 @@ The memory image is manipulated with two files - each responsible for its own fu
     The file single_memory_word defines each memory word individually and provides various funcions to maintain each word for fully representing the data stored in that memory cell 
     The file memory_image implements the memory image as a whole - using a linked list of data type - single_memory_word along with addresses and a few more data to represent the whole memory of the imaginary computer, this file provides the functionality required to maintain the memory image, initialize it, print it etc,
  
+### Parsing the Input
+The assmebly files which are passed to the program and being assembled are made from simple text representing the assmebly code and for identifing each line of code, parsing and assembling it the program contains few files which are responsible for parsing input
+
+The file line_manipulations declares a few simple and small functions each does a simple task like converting a string to a number or finding out if a line is a comment line or an empty one copying a single word from a line into a buffer etc.
+
+in addition to these files there are also three more important files:
+The file assemble which opens a file and then fetches each line at a time and passes it on to the appropriate functions which in turn check what kind of line it is, what are its arguments and so on
+The file parse_order which gets a line that is an order line and parses its type of order, its arguments, etc.
+The file parse_instractions which gets a line that's an instraction line and identifying its type of instraction, checks for legality etc.
+
+##### above all these files there is the main file - assembler which opens the assembly files and passes them on to the assemble file's functions to parse and output its machine code
 
